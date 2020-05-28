@@ -1,0 +1,7 @@
+[Unit]
+Description=running script check-logs
+
+[Service]
+Type=simple
+EnvironmentFile=/etc/sysconfig/mydaemon
+ExecStart=/usr/bin/mydaemon.sh
