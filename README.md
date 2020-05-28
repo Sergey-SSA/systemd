@@ -2,7 +2,7 @@
 
 **Задача 1 - написать скрипт, который мониторит log-файл на наличие ключевого слова**
 
-Файл [mydaemon.sh] (https://github.com/Sergey-SSA/systemd/blob/master/mydaemon.sh) запускается unit-ом [mydaemon.service] (https://github.com/Sergey-SSA/systemd/blob/master/mydaemon.service) каждые 30 секунд unit-ом [mydaemon.timer] (https://github.com/Sergey-SSA/systemd/blob/master/mydaemon.timer)
+Файл [mydaemon.sh](https://github.com/Sergey-SSA/systemd/blob/master/mydaemon.sh) запускается unit-ом [mydaemon.service](https://github.com/Sergey-SSA/systemd/blob/master/mydaemon.service) каждые 30 секунд unit-ом [mydaemon.timer](https://github.com/Sergey-SSA/systemd/blob/master/mydaemon.timer)
 
 **Задача 2 - дополнить unit-файл сервиса httpd возможностью запустить несколько экземпляров сервиса с разными конфигурационными файлами.**
 
