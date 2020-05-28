@@ -1,8 +1,8 @@
-# systemd
-
 **Задача 1 - написать скрипт, который мониторит log-файл на наличие ключевого слова**
 
 Файл [mydaemon.sh](https://github.com/Sergey-SSA/systemd/blob/master/mydaemon.sh) запускается unit-ом [mydaemon.service](https://github.com/Sergey-SSA/systemd/blob/master/mydaemon.service) каждые 30 секунд unit-ом [mydaemon.timer](https://github.com/Sergey-SSA/systemd/blob/master/mydaemon.timer)
+
+___
 
 **Задача 2 - дополнить unit-файл сервиса httpd возможностью запустить несколько экземпляров сервиса с разными конфигурационными файлами.**
 
@@ -62,6 +62,8 @@ PrivateTmp=true
 
 [Install]
 WantedBy=multi-user.target```
+
+___
 
 **Задача 3 - ограничить сервис.**
 
@@ -217,3 +219,4 @@ memoryLimit=7M
            ├─6777 /usr/sbin/apache2 -k start
            └─6778 /usr/sbin/apache2 -k start
 ```
+Расход памяти стал 6.1M
